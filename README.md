@@ -1,1 +1,1 @@
-This is source code of personal webpage for Hongxu (Danny) Yin.
+This is the source code of personal webpage for Hongxu (Danny) Yin.
