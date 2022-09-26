@@ -94,6 +94,42 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="avit_stop()" onmouseover="avit_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='di_image'>
+                  <img src='images/lasp.png' width="160"></div>
+                  <img src='images/lasp.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('lasp_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('lasp_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Structural Pruning via Latency-Saliency Knapsack</papertitle>
+              </a>
+              <br>
+              Maying Shen*, <strong>Hongxu Yin*</strong>,Pavlo Molchanov, Lei Mao, Jianna Liu, Jose M. Alvarez
+              <br>
+               <em>NeurIPS</em>, 2022
+              <br>
+              <a href="">code (to come)</a>
+              /
+              <a href="">arXiv (to come)</a>
+              <p></p>
+              <p>
+              Sturcutral pruning is a quick knapsack problem to maximize accuracy through combining latency-guided parameter chunks.
+            </p>
+            </td>
+          </tr>
 
           <tr onmouseout="avit_stop()" onmouseover="avit_start()"    bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
