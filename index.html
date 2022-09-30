@@ -82,8 +82,6 @@
           </tr>
         </tbody></table>
 
-
-
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -97,7 +95,45 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="avit_stop()" onmouseover="avit_start()">
+          <tr onmouseout="finv_stop()" onmouseover="finv_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='di_image'>
+                  <img src='images/feature-invert.png' width="160"></div>
+                  <img src='images/feature-invert.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('finv_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('finv_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Privacy Vulnerability of Split Computing to Data-Free Model Inversion Attacks</papertitle>
+              </a>
+              <br>
+              Xin Dong, <strong>Hongxu Yin*</strong>, Jose M. Alvarez, Jan Kautz, Pavlo Molchanov, H.T. Kung
+              <br>
+               <em>BMVC</em>, 2022
+              <br>
+              <a href="">code (to come)</a>
+              /
+              <a href="">arXiv (to come)</a>
+              <p></p>
+              <p>
+              We show viability to train an invert network that maps intermediate tensors back to inputs. Works smoothingly for GANs and classifiers on high resolution tasks.
+            </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="lasp_stop()" onmouseover="lasp_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='di_image'>
