@@ -141,6 +141,82 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+
+          <tr onmouseout="xvila_stop()" onmouseover="xvila_start()"    bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='di_image'>
+                  <img src='images/xvila.png' width="160"></div>
+                  <img src='images/xvila.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('xvila_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('xvila_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2312.07533">
+                <papertitle>X-VILA: Cross-Modality Alignment for Large Language Model</papertitle>
+              </a>
+              <br>
+              Hanrong Ye, De-An Huang, Yao Lu, Zhiding Yu, Wei Ping, Andrew Tao, Jan Kautz, Song Han, Dan Xu, Pavlo Molchanov, <strong>Hongxu Yin</strong>
+              <br>
+               <em>preprint</em>, 2024
+              <br>
+              <a href="https://arxiv.org/pdf/2405.19335">arXiv</a>
+              <p></p>
+              <p>
+                We introduce X-VILA, a foundation model for cross-modality understanding, reasoning, and generation in the domains of video, image, language, and audio. X-VILA demonstrates the ability to perceive (see, hear, and read) multi-modality inputs, and generate (draw, speak, and write) multi-modality responses. 
+              </p>
+            </td>
+          </tr>
+
+
+
+
+          <tr onmouseout="dora_stop()" onmouseover="dora_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='di_image'>
+                  <img src='images/dora.jpeg' width="160"></div>
+                  <img src='images/dora.jpeg' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('dora_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('dora_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2312.07533">
+                <papertitle>DoRA: Weight-Decomposed Low-Rank Adaptation</papertitle>
+              </a>
+              <br>
+              Shih-Yang Liu, Chien-Yi Wang, <strong>Hongxu Yin</strong>, Pavlo Molchanov, Yu-Chiang Frank Wang, Kwang-Ting Cheng, Min-Hung Chen
+              <br>
+               <em>ICML</em>, 2024 <font color="red"><strong>(Oral - top 1.5%)</strong></font>
+              <br>
+              <a href="https://arxiv.org/abs/2312.07533">arXiv</a> /
+              <a href="https://github.com/NVlabs/DoRA">code</a>
+              <p></p>
+              <p>
+              DoRA consistently outperforms LoRA on fine-tuning LLaMA, LLaVA, and VL-BART on various downstream tasks, such as commonsense reasoning, visual instruction tuning, and image/video-text understanding.
+              </p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="vila_stop()" onmouseover="vila_start()"    bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -168,7 +244,10 @@
               <br>
                <em>CVPR</em>, 2024
               <br>
-              <a href="https://arxiv.org/abs/2312.07533">arXiv</a>
+              <a href="https://arxiv.org/abs/2312.07533">arXiv</a> /
+              <a href="https://github.com/NVlabs/VILA">code</a> /
+              <a href="https://developer.nvidia.com/blog/visual-language-models-on-nvidia-hardware-with-vila/">NVIDIA Technical Blog</a> /
+              <a href="https://developer.nvidia.com/blog/visual-language-intelligence-and-edge-ai-2-0/">NVIDIA Jetson Tutorial</a>
               <p></p>
               <p>
               With an enhanced pre-training recipe we build VILA, a Visual Language model family that consistently outperforms the state-of-the-art models, e.g., LLaVA-1.5, across main benchmarks without bells and whistles.
@@ -277,7 +356,7 @@
                <em>CVPR</em>, 2023 &nbsp <font color="red"><strong>(Highlight - top 2.5%)</strong></font>
               <br>
               <a href="https://arxiv.org/abs/2306.08593">arXiv</a> /
-              <a href="">code (to come)</a>
+              <a href="https://github.com/NVlabs/HCL">code</a>
               <p></p>
               <p>
               Continual learning is now enabled for evolving model architecture upgrades. Your current model and new data are all you need to swap into a stronger architecture.
